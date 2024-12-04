@@ -5,6 +5,14 @@ Island Perimeter
 
 
 def island_perimeter(grid):
+    """
+    Calculates island perimeter of a certain grid
+    Args:
+        grid: matrix containing 0(water) or 1(land)
+    Return:
+         island perimeter
+    """
+
     p = 0
     for i in range(len(grid)):
         for j in range(len(grid[i])):
